@@ -18,7 +18,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
-Route::get('/kk', function() {
-
-return 'hello';
-});
+Route::get('users',['uses' => 'UsersController@index']);
