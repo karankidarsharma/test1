@@ -1,0 +1,4 @@
+hello WORLD
+
+{!! $name !!}
+{!! $age !!}

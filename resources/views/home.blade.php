@@ -8,7 +8,11 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in {!! Auth::user()->name !!}
+
+                <h1>HEello  {!! $myname !!} you are {!! $age !!}  year old</h1>
+                    You are logged in {!! Auth::user()->name !!} 
+
+                          {!! $auth->email !!}
                 </div>
             </div>
         </div>
