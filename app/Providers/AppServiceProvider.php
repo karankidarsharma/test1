@@ -15,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-         $age = Carbon::createFromDate(1993,7,6)->age;
+         $age = Carbon::createFromDate(1993,11,7)->age;
           
            View::share('age', $age);
     

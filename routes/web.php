@@ -19,3 +19,5 @@ Route::get('/home', 'HomeController@index');
 Route::get('users',['uses' => 'UsersController@index']);
 Route::get ('users/create', ['uses' => 'UsersController@create']);
 Route::post('users', ['uses' => 'UsersController@store']);
+Route::get('profile','PagesController@profile');
+Route::get('settings','PagesController@settings');
