@@ -34,4 +34,11 @@ public function settings(){
 
 return view('pages.settings');
 }
+  public function blade()
+  {
+    return view('blade.bladetest');
+
+
+  }
+
 }
